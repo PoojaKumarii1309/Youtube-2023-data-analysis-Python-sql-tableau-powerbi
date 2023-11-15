@@ -1,0 +1,2621 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0909.1159                               -->
+<workbook original-version='18.1' source-build='2023.2.2 (20232.23.0909.1159)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.PatternedLineMarks.true...PatternedLineMarks />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Global YouTube Statistics' inline='true' name='federated.1vibbm50qlpuxq1dueqru19y0ccr' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Global YouTube Statistics' name='textscan.0bzin60161t6fu157j5au08o5th7'>
+            <connection class='textscan' directory='D:/Github/Global YouTube Statistics' filename='Global YouTube Statistics.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation all='true' name='Global YouTube Statistics.csv+' type='union'>
+          <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='rank' />
+            <column datatype='string' name='Youtuber' />
+            <column datatype='integer' name='subscribers' />
+            <column datatype='integer' name='video views' />
+            <column datatype='string' name='category' />
+            <column datatype='string' name='Title' />
+            <column datatype='integer' name='uploads' />
+            <column datatype='string' name='Country' />
+            <column datatype='string' name='Abbreviation' />
+            <column datatype='string' name='channel_type' />
+            <column datatype='integer' name='video_views_rank' />
+            <column datatype='string' name='country_rank' />
+            <column datatype='integer' name='channel_type_rank' />
+            <column datatype='integer' name='video_views_for_the_last_30_days' />
+            <column datatype='real' name='lowest_monthly_earnings' />
+            <column datatype='real' name='highest_monthly_earnings' />
+            <column datatype='real' name='lowest_yearly_earnings' />
+            <column datatype='real' name='highest_yearly_earnings' />
+            <column datatype='integer' name='subscribers_for_last_30_days' />
+            <column datatype='date' name='Date ' />
+            <column datatype='string' name='Table Name' />
+            <column datatype='string' name='Latitude' ordinal='21' />
+            <column datatype='string' name='Longitude' ordinal='22' />
+          </columns>
+          <relation connection='textscan.0bzin60161t6fu157j5au08o5th7' name='Global YouTube Statistics.csv' table='[Global YouTube Statistics#csv]' type='table'>
+            <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='rank' ordinal='0' />
+              <column datatype='string' name='Youtuber' ordinal='1' />
+              <column datatype='integer' name='subscribers' ordinal='2' />
+              <column datatype='integer' name='video views' ordinal='3' />
+              <column datatype='string' name='category' ordinal='4' />
+              <column datatype='string' name='Title' ordinal='5' />
+              <column datatype='integer' name='uploads' ordinal='6' />
+              <column datatype='string' name='Country' ordinal='7' />
+              <column datatype='string' name='Abbreviation' ordinal='8' />
+              <column datatype='string' name='channel_type' ordinal='9' />
+              <column datatype='integer' name='video_views_rank' ordinal='10' />
+              <column datatype='string' name='country_rank' ordinal='11' />
+              <column datatype='integer' name='channel_type_rank' ordinal='12' />
+              <column datatype='string' name='video_views_for_the_last_30_days' ordinal='13' />
+              <column datatype='real' name='lowest_monthly_earnings' ordinal='14' />
+              <column datatype='real' name='highest_monthly_earnings' ordinal='15' />
+              <column datatype='real' name='lowest_yearly_earnings' ordinal='16' />
+              <column datatype='real' name='highest_yearly_earnings' ordinal='17' />
+              <column datatype='string' name='subscribers_for_last_30_days' ordinal='18' />
+              <column datatype='date' name='Date ' ordinal='19' />
+              <column datatype='string' name='Latitude' ordinal='20' />
+              <column datatype='string' name='Longitude' ordinal='21' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0bzin60161t6fu157j5au08o5th7' name='Global YouTube Statistics.csv1' table='[Global YouTube Statistics#csv]' type='table'>
+            <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='rank' ordinal='0' />
+              <column datatype='string' name='Youtuber' ordinal='1' />
+              <column datatype='integer' name='subscribers' ordinal='2' />
+              <column datatype='integer' name='video views' ordinal='3' />
+              <column datatype='string' name='category' ordinal='4' />
+              <column datatype='string' name='Title' ordinal='5' />
+              <column datatype='integer' name='uploads' ordinal='6' />
+              <column datatype='string' name='Country' ordinal='7' />
+              <column datatype='string' name='Abbreviation' ordinal='8' />
+              <column datatype='string' name='channel_type' ordinal='9' />
+              <column datatype='integer' name='video_views_rank' ordinal='10' />
+              <column datatype='string' name='country_rank' ordinal='11' />
+              <column datatype='integer' name='channel_type_rank' ordinal='12' />
+              <column datatype='string' name='video_views_for_the_last_30_days' ordinal='13' />
+              <column datatype='real' name='lowest_monthly_earnings' ordinal='14' />
+              <column datatype='real' name='highest_monthly_earnings' ordinal='15' />
+              <column datatype='real' name='lowest_yearly_earnings' ordinal='16' />
+              <column datatype='real' name='highest_yearly_earnings' ordinal='17' />
+              <column datatype='string' name='subscribers_for_last_30_days' ordinal='18' />
+              <column datatype='date' name='Date ' ordinal='19' />
+              <column datatype='string' name='Latitude' ordinal='20' />
+              <column datatype='string' name='Longitude' ordinal='21' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation all='true' name='Global YouTube Statistics.csv+' type='union'>
+          <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='rank' />
+            <column datatype='string' name='Youtuber' />
+            <column datatype='integer' name='subscribers' />
+            <column datatype='integer' name='video views' />
+            <column datatype='string' name='category' />
+            <column datatype='string' name='Title' />
+            <column datatype='integer' name='uploads' />
+            <column datatype='string' name='Country' />
+            <column datatype='string' name='Abbreviation' />
+            <column datatype='string' name='channel_type' />
+            <column datatype='integer' name='video_views_rank' />
+            <column datatype='string' name='country_rank' />
+            <column datatype='integer' name='channel_type_rank' />
+            <column datatype='integer' name='video_views_for_the_last_30_days' />
+            <column datatype='real' name='lowest_monthly_earnings' />
+            <column datatype='real' name='highest_monthly_earnings' />
+            <column datatype='real' name='lowest_yearly_earnings' />
+            <column datatype='real' name='highest_yearly_earnings' />
+            <column datatype='integer' name='subscribers_for_last_30_days' />
+            <column datatype='date' name='Date ' />
+            <column datatype='string' name='Table Name' />
+            <column datatype='string' name='Latitude' ordinal='21' />
+            <column datatype='string' name='Longitude' ordinal='22' />
+          </columns>
+          <relation connection='textscan.0bzin60161t6fu157j5au08o5th7' name='Global YouTube Statistics.csv' table='[Global YouTube Statistics#csv]' type='table'>
+            <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='rank' ordinal='0' />
+              <column datatype='string' name='Youtuber' ordinal='1' />
+              <column datatype='integer' name='subscribers' ordinal='2' />
+              <column datatype='integer' name='video views' ordinal='3' />
+              <column datatype='string' name='category' ordinal='4' />
+              <column datatype='string' name='Title' ordinal='5' />
+              <column datatype='integer' name='uploads' ordinal='6' />
+              <column datatype='string' name='Country' ordinal='7' />
+              <column datatype='string' name='Abbreviation' ordinal='8' />
+              <column datatype='string' name='channel_type' ordinal='9' />
+              <column datatype='integer' name='video_views_rank' ordinal='10' />
+              <column datatype='string' name='country_rank' ordinal='11' />
+              <column datatype='integer' name='channel_type_rank' ordinal='12' />
+              <column datatype='string' name='video_views_for_the_last_30_days' ordinal='13' />
+              <column datatype='real' name='lowest_monthly_earnings' ordinal='14' />
+              <column datatype='real' name='highest_monthly_earnings' ordinal='15' />
+              <column datatype='real' name='lowest_yearly_earnings' ordinal='16' />
+              <column datatype='real' name='highest_yearly_earnings' ordinal='17' />
+              <column datatype='string' name='subscribers_for_last_30_days' ordinal='18' />
+              <column datatype='date' name='Date ' ordinal='19' />
+              <column datatype='string' name='Latitude' ordinal='20' />
+              <column datatype='string' name='Longitude' ordinal='21' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0bzin60161t6fu157j5au08o5th7' name='Global YouTube Statistics.csv1' table='[Global YouTube Statistics#csv]' type='table'>
+            <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='rank' ordinal='0' />
+              <column datatype='string' name='Youtuber' ordinal='1' />
+              <column datatype='integer' name='subscribers' ordinal='2' />
+              <column datatype='integer' name='video views' ordinal='3' />
+              <column datatype='string' name='category' ordinal='4' />
+              <column datatype='string' name='Title' ordinal='5' />
+              <column datatype='integer' name='uploads' ordinal='6' />
+              <column datatype='string' name='Country' ordinal='7' />
+              <column datatype='string' name='Abbreviation' ordinal='8' />
+              <column datatype='string' name='channel_type' ordinal='9' />
+              <column datatype='integer' name='video_views_rank' ordinal='10' />
+              <column datatype='string' name='country_rank' ordinal='11' />
+              <column datatype='integer' name='channel_type_rank' ordinal='12' />
+              <column datatype='string' name='video_views_for_the_last_30_days' ordinal='13' />
+              <column datatype='real' name='lowest_monthly_earnings' ordinal='14' />
+              <column datatype='real' name='highest_monthly_earnings' ordinal='15' />
+              <column datatype='real' name='lowest_yearly_earnings' ordinal='16' />
+              <column datatype='real' name='highest_yearly_earnings' ordinal='17' />
+              <column datatype='string' name='subscribers_for_last_30_days' ordinal='18' />
+              <column datatype='date' name='Date ' ordinal='19' />
+              <column datatype='string' name='Latitude' ordinal='20' />
+              <column datatype='string' name='Longitude' ordinal='21' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[rank]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>rank</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Youtuber</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Youtuber]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>Youtuber</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>subscribers</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[subscribers]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>subscribers</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>video views</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[video views]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>video views</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[category]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>category</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Title]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>Title</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>uploads</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[uploads]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>uploads</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Abbreviation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Abbreviation]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>Abbreviation</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>channel_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[channel_type]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>channel_type</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>video_views_rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[video_views_rank]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>video_views_rank</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_rank</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country_rank]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>country_rank</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>channel_type_rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[channel_type_rank]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>channel_type_rank</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>video_views_for_the_last_30_days</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[video_views_for_the_last_30_days]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>video_views_for_the_last_30_days</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lowest_monthly_earnings</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lowest_monthly_earnings]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>lowest_monthly_earnings</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>highest_monthly_earnings</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[highest_monthly_earnings]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>highest_monthly_earnings</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lowest_yearly_earnings</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lowest_yearly_earnings]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>lowest_yearly_earnings</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>highest_yearly_earnings</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[highest_yearly_earnings]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>highest_yearly_earnings</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>subscribers_for_last_30_days</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[subscribers_for_last_30_days]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>subscribers_for_last_30_days</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date </remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date ]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>Date </remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Latitude]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>Latitude</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Longitude]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>Longitude</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Table Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Table Name]</local-name>
+            <parent-name>[Global YouTube Statistics.csv+]</parent-name>
+            <remote-alias>Table Name</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='total sub&apos;s' datatype='real' name='[Calculation_1437211251113979904]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[subscribers]/2' />
+      </column>
+      <column caption='Avg monthly earning' datatype='real' name='[Calculation_2178897813486161921]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(&#13;&#10;   SUM([highest_monthly_earnings]) + SUM([lowest_monthly_earnings])&#13;&#10;) / 2' />
+      </column>
+      <column caption='Avg yearly earning' datatype='real' name='[Calculation_2178897813486960642]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(&#13;&#10;   SUM([highest_yearly_earnings]) + SUM([lowest_yearly_earnings])&#13;&#10;) / 2' />
+      </column>
+      <column caption='Total monthly earning' datatype='real' name='[Calculation_2178897813487190019]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(&#13;&#10;   SUM([highest_monthly_earnings]) + SUM([lowest_monthly_earnings])&#13;&#10;)' />
+      </column>
+      <column caption='Total yearly earning' datatype='real' name='[Calculation_2178897813487419396]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(&#13;&#10;   SUM([highest_yearly_earnings]) + SUM([lowest_yearly_earnings])&#13;&#10;)' />
+      </column>
+      <column caption='Avg monthly subscribers' datatype='real' name='[Calculation_2178897813489319942]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([subscribers_for_last_30_days])' />
+      </column>
+      <column caption='Avg monthly views ' datatype='real' name='[Calculation_2178897813509922824]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([video_views_for_the_last_30_days])' />
+      </column>
+      <column caption='total subscribers' datatype='integer' name='[Calculation_2178897813526495243]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([subscribers])' />
+      </column>
+      <column caption='Total views' datatype='integer' name='[Calculation_2178897813526790156]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([video views])' />
+      </column>
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Date' datatype='date' name='[Date ]' role='dimension' type='ordinal' />
+      <column aggregate-role-from='[Country]' datatype='string' name='[Latitude]' role='dimension' type='nominal' />
+      <column aggregate-role-from='[Country]' datatype='string' name='[Longitude]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Youtuber]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;YouTube Movies&quot;' value='YT Movies' />
+        </aliases>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Global YouTube Statistics.csv' datatype='table' name='[__tableau_internal_object_id__].[Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82]' role='measure' type='quantitative' />
+      <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+      <column caption='Channel Type' datatype='string' name='[channel_type]' role='dimension' type='nominal' />
+      <column caption='Channel Type Rank' datatype='integer' name='[channel_type_rank]' role='measure' type='quantitative' />
+      <column caption='Country Rank' datatype='string' name='[country_rank]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Highest Monthly Earnings' datatype='real' name='[highest_monthly_earnings]' role='measure' type='quantitative' />
+      <column caption='Highest Yearly Earnings' datatype='real' name='[highest_yearly_earnings]' role='measure' type='quantitative' />
+      <column caption='Lowest Monthly Earnings' datatype='real' name='[lowest_monthly_earnings]' role='measure' type='quantitative' />
+      <column caption='Lowest Yearly Earnings' datatype='real' name='[lowest_yearly_earnings]' role='measure' type='quantitative' />
+      <column caption='Rank' datatype='integer' name='[rank]' role='measure' type='quantitative' />
+      <column caption='Subscribers' datatype='integer' name='[subscribers]' role='measure' type='quantitative' />
+      <column caption='Subscribers For Last 30 Days' datatype='integer' name='[subscribers_for_last_30_days]' role='dimension' type='ordinal' />
+      <column caption='Uploads' datatype='integer' name='[uploads]' role='measure' type='quantitative' />
+      <column caption='Video Views' datatype='integer' name='[video views]' role='measure' type='quantitative' />
+      <column caption='Video Views For The Last 30 Days' datatype='integer' name='[video_views_for_the_last_30_days]' role='dimension' type='ordinal' />
+      <column caption='Video Views Rank' datatype='integer' name='[video_views_rank]' role='measure' type='quantitative' />
+      <column-instance column='[lowest_yearly_earnings]' derivation='Avg' name='[avg:lowest_yearly_earnings:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[lowest_yearly_earnings]' derivation='Sum' name='[diff:sum:lowest_yearly_earnings:qk:2]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='CellInPane' type='Difference'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[lowest_yearly_earnings]' derivation='Sum' name='[diff:sum:lowest_yearly_earnings:qk:4]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='Rows' type='Difference'>
+          <address>
+            <value>1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[lowest_yearly_earnings]' derivation='Sum' name='[diff:sum:lowest_yearly_earnings:qk]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='Rows' type='Difference'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[Youtuber]' derivation='None' name='[none:Youtuber:nk]' pivot='key' type='nominal' />
+      <column-instance column='[category]' derivation='None' name='[none:category:nk]' pivot='key' type='nominal' />
+      <column-instance column='[highest_monthly_earnings]' derivation='Sum' name='[sum:highest_monthly_earnings:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[highest_yearly_earnings]' derivation='Sum' name='[sum:highest_yearly_earnings:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[lowest_yearly_earnings]' derivation='Sum' name='[sum:lowest_yearly_earnings:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_2178897813489319942]' derivation='User' name='[usr:Calculation_2178897813489319942:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_2178897813509922824]' derivation='User' name='[usr:Calculation_2178897813509922824:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_2178897813526495243]' derivation='User' name='[usr:Calculation_2178897813526495243:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_2178897813526790156]' derivation='User' name='[usr:Calculation_2178897813526790156:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Youtuber)' hidden='true' name='[Action (Youtuber)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Youtuber]' />
+        </groupfilter>
+      </group>
+      <drill-paths>
+        <drill-path name='Latitude, Country'>
+          <field>[Longitude]</field>
+          <field>[Latitude]</field>
+          <field>[Country]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813489319942:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:highest_monthly_earnings:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813526790156:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:highest_yearly_earnings:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1vibbm50qlpuxq1dueqru19y0ccr]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1vibbm50qlpuxq1dueqru19y0ccr].[avg:lowest_yearly_earnings:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1vibbm50qlpuxq1dueqru19y0ccr].[diff:sum:lowest_yearly_earnings:qk:2]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1vibbm50qlpuxq1dueqru19y0ccr].[diff:sum:lowest_yearly_earnings:qk:4]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1vibbm50qlpuxq1dueqru19y0ccr].[diff:sum:lowest_yearly_earnings:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:lowest_yearly_earnings:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813509922824:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813526495243:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Youtuber:nk]' palette='gray_warm_10_0' type='palette'>
+            <map to='#59504e'>
+              <bucket>&quot;T-Series&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;YouTube Movies&quot;</bucket>
+            </map>
+            <map to='#948c88'>
+              <bucket>&quot;MrBeast&quot;</bucket>
+            </map>
+            <map to='#9b938f'>
+              <bucket>&quot;Cocomelon - Nursery Rhymes&quot;</bucket>
+            </map>
+            <map to='#beb6b2'>
+              <bucket>&quot;SET India&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:category:nk]' palette='red_10_0' type='palette'>
+            <map to='#ae123a'>
+              <bucket>&quot;Travel &amp; Events&quot;</bucket>
+            </map>
+            <map to='#b8163a'>
+              <bucket>&quot;Trailers&quot;</bucket>
+            </map>
+            <map to='#c21b3b'>
+              <bucket>&quot;Sports&quot;</bucket>
+            </map>
+            <map to='#cc233c'>
+              <bucket>&quot;Shows&quot;</bucket>
+            </map>
+            <map to='#d52b3d'>
+              <bucket>&quot;Science &amp; Technology&quot;</bucket>
+            </map>
+            <map to='#dc3440'>
+              <bucket>&quot;Pets &amp; Animals&quot;</bucket>
+            </map>
+            <map to='#e33e43'>
+              <bucket>&quot;People &amp; Blogs&quot;</bucket>
+            </map>
+            <map to='#e94947'>
+              <bucket>&quot;Nonprofits &amp; Activism&quot;</bucket>
+            </map>
+            <map to='#ee554b'>
+              <bucket>&quot;News &amp; Politics&quot;</bucket>
+            </map>
+            <map to='#f26250'>
+              <bucket>&quot;NA&quot;</bucket>
+            </map>
+            <map to='#f46c59'>
+              <bucket>&quot;Music&quot;</bucket>
+            </map>
+            <map to='#f67762'>
+              <bucket>&quot;Movies&quot;</bucket>
+            </map>
+            <map to='#f8826b'>
+              <bucket>&quot;Howto &amp; Style&quot;</bucket>
+            </map>
+            <map to='#fa8d75'>
+              <bucket>&quot;Gaming&quot;</bucket>
+            </map>
+            <map to='#fb9782'>
+              <bucket>&quot;Film &amp; Animation&quot;</bucket>
+            </map>
+            <map to='#fca08e'>
+              <bucket>&quot;Entertainment&quot;</bucket>
+            </map>
+            <map to='#fdaa9a'>
+              <bucket>&quot;Education&quot;</bucket>
+            </map>
+            <map to='#feb4a6'>
+              <bucket>&quot;Comedy&quot;</bucket>
+            </map>
+            <map to='#ffbeb2'>
+              <bucket>&quot;Autos &amp; Vehicles&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Global YouTube Statistics.csv' id='Global YouTube Statistics.csv_70E254BE03464E3EA72AC5AA03E40B82'>
+            <properties context=''>
+              <relation all='true' name='Global YouTube Statistics.csv+' type='union'>
+                <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='rank' />
+                  <column datatype='string' name='Youtuber' />
+                  <column datatype='integer' name='subscribers' />
+                  <column datatype='integer' name='video views' />
+                  <column datatype='string' name='category' />
+                  <column datatype='string' name='Title' />
+                  <column datatype='integer' name='uploads' />
+                  <column datatype='string' name='Country' />
+                  <column datatype='string' name='Abbreviation' />
+                  <column datatype='string' name='channel_type' />
+                  <column datatype='integer' name='video_views_rank' />
+                  <column datatype='string' name='country_rank' />
+                  <column datatype='integer' name='channel_type_rank' />
+                  <column datatype='integer' name='video_views_for_the_last_30_days' />
+                  <column datatype='real' name='lowest_monthly_earnings' />
+                  <column datatype='real' name='highest_monthly_earnings' />
+                  <column datatype='real' name='lowest_yearly_earnings' />
+                  <column datatype='real' name='highest_yearly_earnings' />
+                  <column datatype='integer' name='subscribers_for_last_30_days' />
+                  <column datatype='date' name='Date ' />
+                  <column datatype='string' name='Table Name' />
+                  <column datatype='string' name='Latitude' ordinal='21' />
+                  <column datatype='string' name='Longitude' ordinal='22' />
+                </columns>
+                <relation connection='textscan.0bzin60161t6fu157j5au08o5th7' name='Global YouTube Statistics.csv' table='[Global YouTube Statistics#csv]' type='table'>
+                  <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+                    <column datatype='integer' name='rank' ordinal='0' />
+                    <column datatype='string' name='Youtuber' ordinal='1' />
+                    <column datatype='integer' name='subscribers' ordinal='2' />
+                    <column datatype='integer' name='video views' ordinal='3' />
+                    <column datatype='string' name='category' ordinal='4' />
+                    <column datatype='string' name='Title' ordinal='5' />
+                    <column datatype='integer' name='uploads' ordinal='6' />
+                    <column datatype='string' name='Country' ordinal='7' />
+                    <column datatype='string' name='Abbreviation' ordinal='8' />
+                    <column datatype='string' name='channel_type' ordinal='9' />
+                    <column datatype='integer' name='video_views_rank' ordinal='10' />
+                    <column datatype='string' name='country_rank' ordinal='11' />
+                    <column datatype='integer' name='channel_type_rank' ordinal='12' />
+                    <column datatype='string' name='video_views_for_the_last_30_days' ordinal='13' />
+                    <column datatype='real' name='lowest_monthly_earnings' ordinal='14' />
+                    <column datatype='real' name='highest_monthly_earnings' ordinal='15' />
+                    <column datatype='real' name='lowest_yearly_earnings' ordinal='16' />
+                    <column datatype='real' name='highest_yearly_earnings' ordinal='17' />
+                    <column datatype='string' name='subscribers_for_last_30_days' ordinal='18' />
+                    <column datatype='date' name='Date ' ordinal='19' />
+                    <column datatype='string' name='Latitude' ordinal='20' />
+                    <column datatype='string' name='Longitude' ordinal='21' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0bzin60161t6fu157j5au08o5th7' name='Global YouTube Statistics.csv1' table='[Global YouTube Statistics#csv]' type='table'>
+                  <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+                    <column datatype='integer' name='rank' ordinal='0' />
+                    <column datatype='string' name='Youtuber' ordinal='1' />
+                    <column datatype='integer' name='subscribers' ordinal='2' />
+                    <column datatype='integer' name='video views' ordinal='3' />
+                    <column datatype='string' name='category' ordinal='4' />
+                    <column datatype='string' name='Title' ordinal='5' />
+                    <column datatype='integer' name='uploads' ordinal='6' />
+                    <column datatype='string' name='Country' ordinal='7' />
+                    <column datatype='string' name='Abbreviation' ordinal='8' />
+                    <column datatype='string' name='channel_type' ordinal='9' />
+                    <column datatype='integer' name='video_views_rank' ordinal='10' />
+                    <column datatype='string' name='country_rank' ordinal='11' />
+                    <column datatype='integer' name='channel_type_rank' ordinal='12' />
+                    <column datatype='string' name='video_views_for_the_last_30_days' ordinal='13' />
+                    <column datatype='real' name='lowest_monthly_earnings' ordinal='14' />
+                    <column datatype='real' name='highest_monthly_earnings' ordinal='15' />
+                    <column datatype='real' name='lowest_yearly_earnings' ordinal='16' />
+                    <column datatype='real' name='highest_yearly_earnings' ordinal='17' />
+                    <column datatype='string' name='subscribers_for_last_30_days' ordinal='18' />
+                    <column datatype='date' name='Date ' ordinal='19' />
+                    <column datatype='string' name='Latitude' ordinal='20' />
+                    <column datatype='string' name='Longitude' ordinal='21' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_5AEA8E6C7F6347A5B92637EEBF4D7E58]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='YT analysis' type='sheet' worksheet='Top 10 YouTube channels' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='YT analysis' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Avg Monthly Earning'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#8d8686' fontname='Segoe UI Semibold' fontsize='8'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Global YouTube Statistics' name='federated.1vibbm50qlpuxq1dueqru19y0ccr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vibbm50qlpuxq1dueqru19y0ccr'>
+            <column caption='Avg monthly earning' datatype='real' name='[Calculation_2178897813486161921]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(&#13;&#10;   SUM([highest_monthly_earnings]) + SUM([lowest_monthly_earnings])&#13;&#10;) / 2' />
+            </column>
+            <column datatype='string' name='[Youtuber]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;YouTube Movies&quot;' value='YT Movies' />
+              </aliases>
+            </column>
+            <column caption='Highest Monthly Earnings' datatype='real' name='[highest_monthly_earnings]' role='measure' type='quantitative' />
+            <column caption='Lowest Monthly Earnings' datatype='real' name='[lowest_monthly_earnings]' role='measure' type='quantitative' />
+            <column-instance column='[Youtuber]' derivation='None' name='[none:Youtuber:nk]' pivot='key' type='nominal' />
+            <column caption='Subscribers' datatype='integer' name='[subscribers]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_2178897813486161921]' derivation='User' name='[usr:Calculation_2178897813486161921:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Action (Youtuber)]'>
+            <groupfilter function='level-members' level='[Youtuber]' user:ui-action-filter='[Action1_5AEA8E6C7F6347A5B92637EEBF4D7E58]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]' filter-group='4'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([subscribers])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Youtuber:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]</column>
+            <column>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Action (Youtuber)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813486161921:qk]' value='c&quot;$&quot;#,##0,,.00M;(&quot;$&quot;#,##0,,.00M)' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#ff0000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813486161921:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Segoe UI Semibold' fontsize='14'>&lt;</run>
+                <run bold='true' fontname='Segoe UI Semibold' fontsize='14'>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813486161921:qk]</run>
+                <run bold='true' fontname='Segoe UI Semibold' fontsize='14'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{EA3F6619-9E5E-4E41-9EA6-ED6BCCAF30C1}' />
+    </worksheet>
+    <worksheet name='Avg Monthly Subscribers'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#8d8686' fontname='Segoe UI Semibold' fontsize='8'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Global YouTube Statistics' name='federated.1vibbm50qlpuxq1dueqru19y0ccr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vibbm50qlpuxq1dueqru19y0ccr'>
+            <column caption='Avg monthly subscribers' datatype='real' name='[Calculation_2178897813489319942]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([subscribers_for_last_30_days])' />
+            </column>
+            <column datatype='string' name='[Youtuber]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;YouTube Movies&quot;' value='YT Movies' />
+              </aliases>
+            </column>
+            <column-instance column='[Youtuber]' derivation='None' name='[none:Youtuber:nk]' pivot='key' type='nominal' />
+            <column caption='Subscribers' datatype='integer' name='[subscribers]' role='measure' type='quantitative' />
+            <column caption='Subscribers For Last 30 Days' datatype='integer' name='[subscribers_for_last_30_days]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_2178897813489319942]' derivation='User' name='[usr:Calculation_2178897813489319942:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Action (Youtuber)]'>
+            <groupfilter function='level-members' level='[Youtuber]' user:ui-action-filter='[Action1_5AEA8E6C7F6347A5B92637EEBF4D7E58]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]' filter-group='4'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([subscribers])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Youtuber:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]</column>
+            <column>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Action (Youtuber)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813489319942:qk]' value='n#,##0,K;-#,##0,K' />
+            <format attr='border-width' scope='cols' value='0' />
+            <format attr='border-style' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' scope='cols' value='0' />
+            <format attr='border-style' scope='cols' value='none' />
+            <format attr='band-color' scope='rows' value='#eaeaea' />
+            <format attr='background-color' data-class='total' value='#eaeaea' />
+            <format attr='band-color' scope='cols' value='#eaeaea' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='1' />
+            <format attr='band-size' scope='cols' value='1' />
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#ff0000' />
+            <format attr='font-family' value='Segoe UI Semibold' />
+            <format attr='font-size' value='9' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813489319942:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='14'>&lt;</run>
+                <run fontsize='14'>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813489319942:qk]</run>
+                <run fontsize='14'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{997FDA08-AFAC-4958-8189-D35AD0FF7AF6}' />
+    </worksheet>
+    <worksheet name='Avg Yearly Earning '>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#8d8686' fontname='Segoe UI Semibold' fontsize='8'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Global YouTube Statistics' name='federated.1vibbm50qlpuxq1dueqru19y0ccr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vibbm50qlpuxq1dueqru19y0ccr'>
+            <column caption='Avg yearly earning' datatype='real' name='[Calculation_2178897813486960642]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(&#13;&#10;   SUM([highest_yearly_earnings]) + SUM([lowest_yearly_earnings])&#13;&#10;) / 2' />
+            </column>
+            <column datatype='string' name='[Youtuber]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;YouTube Movies&quot;' value='YT Movies' />
+              </aliases>
+            </column>
+            <column caption='Highest Yearly Earnings' datatype='real' name='[highest_yearly_earnings]' role='measure' type='quantitative' />
+            <column caption='Lowest Yearly Earnings' datatype='real' name='[lowest_yearly_earnings]' role='measure' type='quantitative' />
+            <column-instance column='[Youtuber]' derivation='None' name='[none:Youtuber:nk]' pivot='key' type='nominal' />
+            <column caption='Subscribers' datatype='integer' name='[subscribers]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_2178897813486960642]' derivation='User' name='[usr:Calculation_2178897813486960642:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Action (Youtuber)]'>
+            <groupfilter function='level-members' level='[Youtuber]' user:ui-action-filter='[Action1_5AEA8E6C7F6347A5B92637EEBF4D7E58]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]' filter-group='4'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([subscribers])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Youtuber:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]</column>
+            <column>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Action (Youtuber)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813486960642:qk]' value='c&quot;$&quot;#,##0,,.0M' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#ff0000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813486960642:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Segoe UI Semibold' fontsize='14'>&lt;</run>
+                <run bold='true' fontname='Segoe UI Semibold' fontsize='14'>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813486960642:qk]</run>
+                <run bold='true' fontname='Segoe UI Semibold' fontsize='14'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{0B21ABDC-75EE-40E6-AFAC-CA37CB0C7E73}' />
+    </worksheet>
+    <worksheet name='Countries have the most popular YouTube channels'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#8d8686' fontname='Segoe UI Semibold' fontsize='11'>Most Popular YT Channels</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Global YouTube Statistics' name='federated.1vibbm50qlpuxq1dueqru19y0ccr' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1vibbm50qlpuxq1dueqru19y0ccr'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Youtuber]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;YouTube Movies&quot;' value='YT Movies' />
+              </aliases>
+            </column>
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column caption='Subscribers' datatype='integer' name='[subscribers]' role='measure' type='quantitative' />
+            <column-instance column='[subscribers]' derivation='Sum' name='[sum:subscribers:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Action (Youtuber)]'>
+            <groupfilter function='level-members' level='[Youtuber]' user:ui-action-filter='[Action1_5AEA8E6C7F6347A5B92637EEBF4D7E58]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Latitude (generated)]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Longitude (generated)]' included-values='non-null' />
+          <filter class='categorical' column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Country:nk]'>
+            <groupfilter function='level-members' level='[none:Country:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Latitude (generated)]</column>
+            <column>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Longitude (generated)]</column>
+            <column>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Country:nk]</column>
+            <column>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Action (Youtuber)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Longitude (generated)]' field-type='quantitative' max='35104135.845987648' min='16686674.251868056' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Latitude (generated)]' field-type='quantitative' max='11418552.621310914' min='-4678210.2501040893' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:subscribers:qk]' palette='red_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Country:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Country:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Country:nk]' value='false' />
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:subscribers:qk]' />
+              <lod column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Country:nk]' />
+              <geometry column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Latitude (generated)]</rows>
+        <cols>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{79F792DB-8BB4-4610-96E7-6CBA3A6F11E2}' />
+    </worksheet>
+    <worksheet name='How do earnings vary between different channel types (individual vs. brand)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#8d8686' fontname='Segoe UI Semibold' fontsize='11'>Earning Difference By Channel Types( Individual vs. Brand</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Global YouTube Statistics' name='federated.1vibbm50qlpuxq1dueqru19y0ccr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vibbm50qlpuxq1dueqru19y0ccr'>
+            <column caption='Total yearly earning' datatype='real' name='[Calculation_2178897813487419396]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(&#13;&#10;   SUM([highest_yearly_earnings]) + SUM([lowest_yearly_earnings])&#13;&#10;)' />
+            </column>
+            <column datatype='string' name='[Youtuber]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;YouTube Movies&quot;' value='YT Movies' />
+              </aliases>
+            </column>
+            <column caption='Channel Type' datatype='string' name='[channel_type]' role='dimension' type='nominal' />
+            <column caption='Highest Yearly Earnings' datatype='real' name='[highest_yearly_earnings]' role='measure' type='quantitative' />
+            <column caption='Lowest Yearly Earnings' datatype='real' name='[lowest_yearly_earnings]' role='measure' type='quantitative' />
+            <column-instance column='[channel_type]' derivation='None' name='[none:channel_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2178897813487419396]' derivation='User' name='[usr:Calculation_2178897813487419396:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Action (Youtuber)]'>
+            <groupfilter function='level-members' level='[Youtuber]' user:ui-action-filter='[Action1_5AEA8E6C7F6347A5B92637EEBF4D7E58]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Action (Youtuber)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813487419396:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='1' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813487419396:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813487419396:qk]' scope='rows' value='false' />
+            <format attr='tick-color' value='#00000000' />
+            <format attr='height' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:channel_type:nk]' value='38' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813487419396:qk]' value='c&quot;$&quot;#,##0,,.0M;(&quot;$&quot;#,##0,,.0M)' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:channel_type:nk]' value='0' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+            <format attr='border-width' data-class='total' scope='rows' value='0' />
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='header-div'>
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#666666'>&lt;</run>
+                <run bold='true' fontcolor='#666666'>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813487419396:qk]</run>
+                <run bold='true' fontcolor='#666666'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='line-interpolation' value='linear' />
+                <format attr='mark-color' value='#ff0000' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813487419396:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813487419396:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#666666'>&lt;</run>
+                <run bold='true' fontcolor='#666666'>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813487419396:qk]</run>
+                <run bold='true' fontcolor='#666666'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.8350828886032104' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#8d8686' />
+                <format attr='line-interpolation' value='linear' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813487419396:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#666666'>&lt;</run>
+                <run bold='true' fontcolor='#666666'>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813487419396:qk]</run>
+                <run bold='true' fontcolor='#666666'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='line-interpolation' value='linear' />
+                <format attr='mark-color' value='#ff0000' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813487419396:qk] + [federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813487419396:qk])</rows>
+        <cols>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:channel_type:nk]</cols>
+      </table>
+      <simple-id uuid='{F7FF9D11-60C7-4C6C-A6CF-A37A2D318588}' />
+    </worksheet>
+    <worksheet name='Most popular categories and impact on subscribers and viedo viwes'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#8d8686' fontname='Segoe UI Semibold' fontsize='11'>Categories &amp; Impact On Subscribers &amp; Video views</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Global YouTube Statistics' name='federated.1vibbm50qlpuxq1dueqru19y0ccr' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1vibbm50qlpuxq1dueqru19y0ccr'>
+            <column caption='total subscribers' datatype='integer' name='[Calculation_2178897813526495243]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([subscribers])' />
+            </column>
+            <column caption='Total views' datatype='integer' name='[Calculation_2178897813526790156]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([video views])' />
+            </column>
+            <column datatype='string' name='[Youtuber]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;YouTube Movies&quot;' value='YT Movies' />
+              </aliases>
+            </column>
+            <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+            <column-instance column='[category]' derivation='None' name='[none:category:nk]' pivot='key' type='nominal' />
+            <column caption='Subscribers' datatype='integer' name='[subscribers]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_2178897813526495243]' derivation='User' name='[usr:Calculation_2178897813526495243:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2178897813526790156]' derivation='User' name='[usr:Calculation_2178897813526790156:qk]' pivot='key' type='quantitative' />
+            <column caption='Video Views' datatype='integer' name='[video views]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Action (Youtuber)]'>
+            <groupfilter function='level-members' level='[Youtuber]' user:ui-action-filter='[Action1_5AEA8E6C7F6347A5B92637EEBF4D7E58]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:category:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='[Calculation_2178897813526495243]' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:category:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:category:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813526790156:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:category:nk]</column>
+            <column>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Action (Youtuber)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813526495243:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813526790156:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813526495243:qk]' scope='rows' value='false' />
+            <format attr='tick-color' scope='rows' value='#00000000' />
+            <format attr='tick-color' scope='cols' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813526495243:qk]' value='n0,,M;-0,,M' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+            <format attr='border-width' data-class='total' scope='rows' value='0' />
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813526495243:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#eeeeee</color>
+                <color>#eaeaea</color>
+                <color>#e7e7e7</color>
+                <color>#e3e3e3</color>
+                <color>#e0e0e0</color>
+                <color>#dcdcdc</color>
+                <color>#d9d9d9</color>
+                <color>#dcdcdc</color>
+                <color>#e0e0e0</color>
+                <color>#e3e3e3</color>
+                <color>#e7e7e7</color>
+                <color>#eaeaea</color>
+                <color>#eeeeee</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+            <format attr='border-width' data-class='total' scope='rows' value='0' />
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='header-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='255' />
+                <format attr='line-interpolation' value='linear' />
+                <_.fcp.PatternedLineMarks.true...format attr='mark-line-pattern' value='solid' />
+                <format attr='mark-color' value='#ff0000' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813526790156:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='255' />
+                <format attr='line-interpolation' value='linear' />
+                <_.fcp.PatternedLineMarks.true...format attr='mark-line-pattern' value='solid' />
+                <format attr='mark-color' value='#ff0000' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813526495243:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813526495243:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#898989'>&lt;</run>
+                <run bold='true' fontcolor='#898989'>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813526495243:qk]</run>
+                <run bold='true' fontcolor='#898989'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='line-interpolation' value='linear' />
+                <_.fcp.PatternedLineMarks.true...format attr='mark-line-pattern' value='solid' />
+                <format attr='mark-color' value='#b2b2b2' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813526790156:qk] + [federated.1vibbm50qlpuxq1dueqru19y0ccr].[usr:Calculation_2178897813526495243:qk])</rows>
+        <cols>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:category:nk]</cols>
+      </table>
+      <simple-id uuid='{28DE5187-E5AB-4379-AB07-1C1E5C794EB0}' />
+    </worksheet>
+    <worksheet name='Number of uploads relate to the channel&apos;s type (3)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#8d8686' fontname='Segoe UI Semibold' fontsize='11'>Uploads relate to channel&apos;s type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Global YouTube Statistics' name='federated.1vibbm50qlpuxq1dueqru19y0ccr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vibbm50qlpuxq1dueqru19y0ccr'>
+            <column datatype='string' name='[Youtuber]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;YouTube Movies&quot;' value='YT Movies' />
+              </aliases>
+            </column>
+            <column caption='Channel Type' datatype='string' name='[channel_type]' role='dimension' type='nominal' />
+            <column-instance column='[channel_type]' derivation='None' name='[none:channel_type:nk]' pivot='key' type='nominal' />
+            <column caption='Subscribers' datatype='integer' name='[subscribers]' role='measure' type='quantitative' />
+            <column-instance column='[uploads]' derivation='Sum' name='[sum:uploads:qk]' pivot='key' type='quantitative' />
+            <column caption='Uploads' datatype='integer' name='[uploads]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Action (Youtuber)]'>
+            <groupfilter function='level-members' level='[Youtuber]' user:ui-action-filter='[Action1_5AEA8E6C7F6347A5B92637EEBF4D7E58]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:channel_type:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([subscribers])' function='order' user:ui-marker='order'>
+                <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='level-members' level='[none:channel_type:nk]' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:channel_type:nk]' member='&quot;Autos&quot;' />
+                    <groupfilter function='member' level='[none:channel_type:nk]' member='&quot;NA&quot;' />
+                    <groupfilter function='member' level='[none:channel_type:nk]' member='%null%' />
+                  </groupfilter>
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:channel_type:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:uploads:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:channel_type:nk]</column>
+            <column>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Action (Youtuber)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:uploads:qk]' scope='rows' value='false' />
+            <encoding attr='space' class='1' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:uploads:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='1' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:uploads:qk]' scope='rows' value='false' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:channel_type:nk]' value='-90' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-level' scope='rows' value='0' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#ff0000' />
+                <format attr='mark-transparency' value='203' />
+                <format attr='line-interpolation' value='linear' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:uploads:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#666666' />
+                <format attr='mark-transparency' value='203' />
+                <format attr='line-interpolation' value='linear' />
+                <format attr='size' value='0.42779004573822021' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:uploads:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#ff0000' />
+                <format attr='mark-transparency' value='203' />
+                <format attr='line-interpolation' value='linear' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:uploads:qk] + [federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:uploads:qk])</rows>
+        <cols>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:channel_type:nk]</cols>
+      </table>
+      <simple-id uuid='{7692BE24-1FA6-4AE1-BAD7-FCD35C6E24F1}' />
+    </worksheet>
+    <worksheet name='Top 10 YouTube channels'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Segoe UI Semibold' fontsize='12'>Top 10 YouTube Channels</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Global YouTube Statistics' name='federated.1vibbm50qlpuxq1dueqru19y0ccr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vibbm50qlpuxq1dueqru19y0ccr'>
+            <column datatype='string' name='[Youtuber]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;YouTube Movies&quot;' value='YT Movies' />
+              </aliases>
+            </column>
+            <column-instance column='[Youtuber]' derivation='None' name='[none:Youtuber:nk]' pivot='key' type='nominal' />
+            <column caption='Subscribers' datatype='integer' name='[subscribers]' role='measure' type='quantitative' />
+            <column-instance column='[subscribers]' derivation='Sum' name='[sum:subscribers:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <filter class='categorical' column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]' filter-group='4'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([subscribers])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Youtuber:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:subscribers:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[:Measure Names]</column>
+            <column>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:subscribers:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:subscribers:qk]' value='n#,##0,,M;-#,##0,,M' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]' value='false' />
+            <format attr='text-orientation' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]' value='0' />
+            <format attr='color' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]' value='#000000' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='font-weight' value='bold' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#7e7878'>&lt;</run>
+                <run fontcolor='#7e7878'>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]</run>
+                <run fontcolor='#7e7878'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.82359117269515991' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#ff0000' />
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:subscribers:qk]</rows>
+        <cols>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]</cols>
+      </table>
+      <simple-id uuid='{1A603F5D-E7F4-44E3-9B01-FC7CEFB76A94}' />
+    </worksheet>
+    <worksheet name='Total Subscribers'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#8d8686' fontname='Segoe UI Semibold' fontsize='8'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Global YouTube Statistics' name='federated.1vibbm50qlpuxq1dueqru19y0ccr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vibbm50qlpuxq1dueqru19y0ccr'>
+            <column caption='total sub&apos;s' datatype='real' name='[Calculation_1437211251113979904]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[subscribers]/2' />
+            </column>
+            <column datatype='string' name='[Youtuber]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;YouTube Movies&quot;' value='YT Movies' />
+              </aliases>
+            </column>
+            <column-instance column='[Youtuber]' derivation='None' name='[none:Youtuber:nk]' pivot='key' type='nominal' />
+            <column caption='Subscribers' datatype='integer' name='[subscribers]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1437211251113979904]' derivation='Sum' name='[sum:Calculation_1437211251113979904:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Action (Youtuber)]'>
+            <groupfilter function='level-members' level='[Youtuber]' user:ui-action-filter='[Action1_5AEA8E6C7F6347A5B92637EEBF4D7E58]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]' filter-group='4'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([subscribers])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Youtuber:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[Action (Youtuber)]</column>
+            <column>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:Calculation_1437211251113979904:qk]' value='n#,##0,,M;-#,##0,,M' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#ff0000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:Calculation_1437211251113979904:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Segoe UI Semibold' fontsize='14'>&lt;</run>
+                <run bold='true' fontname='Segoe UI Semibold' fontsize='14'>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:Calculation_1437211251113979904:qk]</run>
+                <run bold='true' fontname='Segoe UI Semibold' fontsize='14'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{976105D0-EBC6-435C-8687-4194A6668ED3}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='YT analysis'>
+      <style>
+        <style-rule element='dash-text'>
+          <format attr='vertical-align' id='dash-text_15' value='center' />
+          <format attr='text-align' id='dash-text_15' value='center' />
+        </style-rule>
+      </style>
+      <size maxheight='900' maxwidth='1600' minheight='900' minwidth='1600' preset-index='8' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='98222' id='1' is-scaled='1' param='D:/Github/Global YouTube Statistics/image/Slide1.JPG' type-v2='bitmap' w='99000' x='500' y='889'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='40667' id='3' name='Top 10 YouTube channels' show-title='false' w='22188' x='2188' y='11222' />
+        <zone forceUpdate='true' h='3333' id='4' type-v2='text' w='22125' x='2250' y='11444'>
+          <formatted-text>
+            <run fontcolor='#8d8686' fontname='Segoe UI Semibold' fontsize='11'>Top 10 YouTube channels </run>
+          </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#ffffff' />
+          </zone-style>
+        </zone>
+        <zone h='21111' id='5' name='Avg Monthly Subscribers' w='10375' x='2250' y='53000' />
+        <zone h='21000' id='6' name='Total Subscribers' w='10563' x='13750' y='53111'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#ffffff' />
+          </zone-style>
+        </zone>
+        <zone h='20778' id='7' name='Avg Monthly Earning' w='10250' x='2313' y='75556' />
+        <zone h='20667' id='8' name='Avg Yearly Earning ' w='10500' x='13750' y='75556' />
+        <zone h='40556' id='9' name='Countries have the most popular YouTube channels' w='23313' x='25875' y='11000' />
+        <zone h='4222' id='10' name='Countries have the most popular YouTube channels' pane-specification-id='2' param='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:subscribers:qk]' show-title='false' type-v2='color' w='7250' x='42063' y='46778' />
+        <zone h='42556' id='11' name='Number of uploads relate to the channel&apos;s type (3)' w='23375' x='26000' y='54333' />
+        <zone h='40667' id='12' name='How do earnings vary between different channel types (individual vs. brand)' w='47625' x='50500' y='10778'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#ffffff' />
+          </zone-style>
+        </zone>
+        <zone h='43333' id='14' name='Most popular categories and impact on subscribers and viedo viwes' w='47063' x='50750' y='54111'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#ffffff' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='6333' id='15' type-v2='text' w='30000' x='35063' y='2778'>
+          <formatted-text>
+            <run bold='true' fontcolor='#ff0000' fontname='Tableau Semibold' fontsize='20'>YouTube Data Analysis 2023</run>
+          </formatted-text>
+        </zone>
+        <zone h='5111' id='16' is-scaled='1' param='C:/Users/POOJA/OneDrive/Pictures/Screenshots/Screenshot 2023-11-08 022613.png' type-v2='bitmap' w='3938' x='31500' y='3444' />
+      </zones>
+      <simple-id uuid='{908CFF31-7E62-4C98-8887-BEC5C34748CC}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='dashboard' maximized='true' name='YT analysis'>
+      <viewpoints>
+        <viewpoint name='Avg Monthly Earning'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Avg Monthly Subscribers'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Avg Yearly Earning '>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Countries have the most popular YouTube channels'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='How do earnings vary between different channel types (individual vs. brand)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Most popular categories and impact on subscribers and viedo viwes'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:category:nk]' type='highlight'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Number of uploads relate to the channel&apos;s type (3)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top 10 YouTube channels'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Subscribers'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='9' />
+      <simple-id uuid='{AB496B87-1D0B-47CF-9B6E-539221F7DC60}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Avg Monthly Earning'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{84A10754-15B0-4DEA-AEC3-80E6D2B0DFFB}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Avg Monthly Subscribers'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{639796B8-2DC9-48B5-BE95-87D7769E4517}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Avg Yearly Earning '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{99B67CA3-2D59-4430-8C88-881F8E78C8BE}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Countries have the most popular YouTube channels'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:subscribers:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Latitude:nk]</field>
+            <field>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Longitude:nk]</field>
+            <field>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]</field>
+            <field>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:subscribers:qk]</field>
+            <field>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[sum:video views:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{37ADA0B8-BEC2-4A06-86A5-217116E0567D}' />
+    </window>
+    <window class='worksheet' hidden='true' name='How do earnings vary between different channel types (individual vs. brand)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:channel_type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C4187223-972E-4FEB-B5A8-C7BA99EEE17D}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Most popular categories and impact on subscribers and viedo viwes'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:category:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Country:nk]</field>
+            <field>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Latitude:nk]</field>
+            <field>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Longitude:nk]</field>
+            <field>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]</field>
+            <field>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:category:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{973FFBFE-B425-49A9-87AD-985B0A5B25E3}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Number of uploads relate to the channel&apos;s type (3)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Title:nk]</field>
+            <field>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:channel_type:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{2F8CF33C-228E-4253-B944-E6AFF7003FF7}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Top 10 YouTube channels'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]</field>
+            <field>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:category:nk]</field>
+            <field>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:channel_type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{01B90E28-8F70-428A-8747-ABA7E9081948}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Total Subscribers'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vibbm50qlpuxq1dueqru19y0ccr].[none:Youtuber:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5EEE24B9-A531-4B66-A395-363C15B65171}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='YT analysis' width='192'>
+      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
+      SUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
